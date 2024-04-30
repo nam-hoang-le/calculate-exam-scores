@@ -1,5 +1,7 @@
 # Exam Grading System
 
+## Overview
+
 This is a Python program for grading exam papers and generating statistical analysis reports. It includes functionalities to read student answers from input files, grade the exams, calculate scores, and update the grades in an output file.
 
 ## Features
@@ -25,11 +27,25 @@ This is a Python program for grading exam papers and generating statistical anal
 
 - Update the grades in an output file using update_scores(). This function appends student names and their corresponding scores to an output file for record-keeping.
 
+5. Updated Version: 
+
+- A version with complete usability is available in the updated_version folder with the addition of NumPy and Pandas.
+
 ## File Structure
 
-- Data_Files:
-    - input: Directory containing input files with student answers.
-    - output: Directory to store graded exam results.
+```
+|___ Data_Files
+|
+|___ grading_system
+|
+|___ running_example
+|   
+|___ updated_version
+|
+|___ LICENSE
+|
+|___ README.md
+```
 
 ## Example
 
@@ -58,3 +74,9 @@ update_scores(correct_exams, lst_of_scores, name_file)
 
 ## License
 This project is licensed under the MIT License.
+
+Please read the LICENSE file for more details. 
+
+## Contact
+
+If you have any question, please contact me at lenam1072004@gmail.com.
